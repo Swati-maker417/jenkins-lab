@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage("clone code") {
+        stage("clone the repo") {
             steps {
                 echo 'clone the repo'
             }
