@@ -7,7 +7,7 @@ pipeline {
                 echo 'clone the repo'
             }
         }        
-        stage("Build") {
+        stage("Build the product") {
             steps {
                 echo 'build the code'
             }
